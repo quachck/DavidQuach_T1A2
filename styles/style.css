@@ -34,7 +34,7 @@ body {
 
 /* navigation */
 .logo {
-  width: clamp(2rem, 2vw + 0.8rem, 2.5rem);
+  width: clamp(2rem, 3.5vw + 0.8rem, 2.5rem);
 }
 
 .logo-container {
@@ -58,8 +58,9 @@ nav ul {
 .header-nav a {
   text-decoration: none;
   color: var(--text-primary);
-  font-size: 1.2rem;
+  font-size: clamp(1.2rem, 0.65vw + 1.06rem, 1.5rem);
   text-transform: uppercase;
+  font-weight: 1000;
 }
 
 .header-nav li {
@@ -83,15 +84,16 @@ nav ul {
 }
 
 .intro p {
-  margin: 0 1rem;
   text-align: center;
+  font-size: clamp(1rem, 0.4vw + 0.9rem, 1.2rem);
+  margin: 0.5em;
 }
 
 span {
   color: var(--clr-accent);
   font-weight: 1000;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: clamp(2rem, 3.1vw + 1.55rem, 3rem);
 }
 
 /* info */
@@ -106,16 +108,18 @@ span {
   justify-content: center;
   align-items: center;
   gap: 0.8rem;
+  padding: 1em 0;
 }
 
 .info p {
-  margin: 0 1rem;
+  margin: 1.1em;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: clamp(0.8rem, 0.7vw + 0.71rem, 1rem);
 }
 
 .info p:last-of-type {
-  padding-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .portrait-container {
@@ -125,8 +129,9 @@ span {
 }
 
 .account-links img {
-  width: 2rem;
+  width: clamp(2rem, 1.5vw + 1.8rem, 2.5rem);
 }
+
 
 /* footer */
 footer {
@@ -136,7 +141,7 @@ footer {
 
 footer p {
   text-align: center;
-  font-size: 0.6rem;
+  font-size: clamp(0.6rem, 0.5vw + 0.53rem, 0.75rem);
 }
 
 @media screen and (min-width: 1200px) {
@@ -184,31 +189,40 @@ footer p {
   }
 
   #portrait {
-    width: 10vw;
-    /* height: 10vw; */
-    /* fix this */
+    width: 14rem;
   }
 
   .divider {
     margin: auto 0;
     order: 2;
-    height: 45vh;
+    height: 60vh;
     width: 0.1rem;
     background-color: black;
   }
 
   .intro p {
-    margin: 0 1rem;
     text-align: left;
-    font-size: 1.2rem;
-    margin: 0;
+    
   }
 
   .intro h1 {
     text-align: left;
+    letter-spacing: 1rem;
+    line-height: 10rem;
+    padding-top: 1.2rem;
+  }
+
+  .info p {
+    margin-right: 0;
+    
   }
 
   span {
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    letter-spacing: 1rem;
+  }
+
+  footer p {
+    /* font-size: 0.75rem; */
   }
 }
