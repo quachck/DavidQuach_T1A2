@@ -1,11 +1,12 @@
 /* global */
 :root {
-  --clr-primary: #F0F0F0;
+  --clr-primary: #f0f0f0;
   --clr-secondary: #666666;
   --clr-accent: #666999;
-  --ff-primary: 'Rubik', sans-serif;
-  --ff-title: 'Bebas Neue', cursive;
+  --ff-primary: "Rubik", sans-serif;
+  --ff-title: "Bebas Neue", cursive;
   --text-primary: black;
+  --fs-fluid: clamp();
 }
 
 html {
@@ -40,7 +41,6 @@ body {
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
-  
 }
 
 .header-nav {
@@ -58,26 +58,28 @@ nav ul {
 .header-nav a {
   text-decoration: none;
   color: var(--text-primary);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
-.header-nav li{
+.header-nav li {
   /* border: 1px black solid; */
   flex: 1;
   text-align: center;
 }
 
-.header-nav li + li{
-  border-left: 0.1rem var(--text-primary) solid;
+.header-nav li + li {
+  /* border-left: 0.1rem var(--text-primary) solid; */
 }
 
 /* intro */
 .intro h1 {
-  font-size: 4.5rem;
+  font-size: clamp(4.5rem, 14vw + 1.5rem, 10rem);
   text-align: center;
-  margin: 0;
   font-family: var(--ff-title);
-  padding-top: 2rem;
+  margin: 0;
+  /* padding-top: 2rem; */
+  /* letter-spacing: 0.5rem; */
 }
 
 .intro p {
@@ -87,6 +89,9 @@ nav ul {
 
 span {
   color: var(--clr-accent);
+  font-weight: 1000;
+  text-transform: uppercase;
+  font-size: 1.7rem;
 }
 
 /* info */
@@ -100,7 +105,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.8rem;  
+  gap: 0.8rem;
 }
 
 .info p {
@@ -125,22 +130,85 @@ span {
 
 /* footer */
 footer {
-  margin-bottom:0;
+  margin-bottom: 0;
   margin-top: auto;
 }
 
-footer p  {
+footer p {
   text-align: center;
   font-size: 0.6rem;
 }
 
+@media screen and (min-width: 1200px) {
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
+  .logo-container {
+    padding: 0;
+  }
 
+  nav ul {
+    gap: 5rem;
+  }
 
+  .info {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-end;
+    padding: 2rem;
+    justify-content: center;
+  }
 
+  .intro {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-start;
+    padding: 2rem;
+    justify-content: center;
+  }
 
+  .intro-info-container {
+    display: flex;
+    flex: 1;
+  }
 
+  footer {
+    order: 4;
+  }
 
+  #portrait {
+    width: 10vw;
+    /* height: 10vw; */
+    /* fix this */
+  }
 
+  .divider {
+    margin: auto 0;
+    order: 2;
+    height: 45vh;
+    width: 0.1rem;
+    background-color: black;
+  }
 
+  .intro p {
+    margin: 0 1rem;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0;
+  }
 
+  .intro h1 {
+    text-align: left;
+  }
+
+  span {
+    font-size: 3rem;
+  }
+}
