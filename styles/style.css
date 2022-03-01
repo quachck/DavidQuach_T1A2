@@ -38,7 +38,14 @@ a {
   color: var(--clr-secondary);
 }
 
-nav a:hover {
+.project-text-container a,
+.about-section-container a {
+  color: var(--clr-accent);
+  text-decoration: underline;
+}
+
+nav a:hover,
+.project-links-container a:hover {
   display: inline-block;
   transform: scale(1.2);
 }
@@ -55,6 +62,7 @@ nav a:hover {
 }
 
 .header-nav {
+  /* background-color: #969adb; */
   padding: 1rem 1.5rem;
 }
 
@@ -115,6 +123,11 @@ span {
   width: 35vw;
   border-radius: 50%;
   border: 0.15rem var(--clr-accent) solid;
+}
+
+article #portrait {
+  border-radius: 0;
+  border: none;
 }
 
 .account-links {
@@ -240,7 +253,7 @@ footer p {
   }
 }
 
-/* blog */
+/* blogs */
 .header-nav a.active {
   color: var(--clr-accent);
   text-decoration: underline;
@@ -273,7 +286,6 @@ footer p {
 }
 
 h2 {
-  width: 100vw;;
   text-align: center;
   text-transform: uppercase;
   font-size: clamp(2rem, 6.87vw + 0.6rem, 3.5rem);
@@ -294,12 +306,15 @@ p:last-of-type {
 
 a.small-text {
   display: block;
+  margin-bottom: 0.3rem;
 }
+
 
 h3 {
   font-size: clamp(1.5rem, 2.3vw + 1rem, 2rem);
   padding: 0 0.5rem;
   margin-top: 0.5em;
+  text-transform: uppercase;
 }
 
 /* blog posts */
@@ -369,6 +384,32 @@ p + h4 {
     /* width: 55vw; */
     margin: 1rem 15vw;
   }
+
+  /* about me */
+  .about-container {
+    width: 65%;
+    /* background-color: var(--clr-primary-accent); */
+  }
+
+  .about-main-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: var(--clr-primary-accent); */
+  }
+
+  /* projects */
+  .projects-container {
+    width: 75vw;
+  }
+
+  .projects-main-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-main-container .project-container {
+    margin: 0;
+  }
 }
 
 /* desktop media */
@@ -396,6 +437,10 @@ p + h4 {
   }
 
   /* blog post */
+  .blog-container h2 {
+    width: 100vw;
+  }
+
   .main-container {
     display: flex;
     justify-content: center;
@@ -412,7 +457,7 @@ p + h4 {
 
   .section-container {
     flex: 2;
-  } 
+  }
 
   .blogs-container {
     /* margin: 1rem 20vw; */
@@ -435,4 +480,128 @@ p + h4 {
     align-self: flex-end;
     padding-right: 0;
   }
+
+  /* about */
+  .about-main-container {
+    display: flex;
+    justify-content: center;
+    /* background-color: var(--clr-primary-accent); */
+    margin-top: 5vw;
+  }
+
+  main .about-container {
+    width: 60%;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .about-container .about-header-container {
+    /* width: 25vw; */
+    flex: 2;
+    justify-content: flex-start;
+  }
+  .about-section-container {
+    flex: 3;
+  }
+
+  .about-header-container h2 {
+    width: fit-content;
+    align-self: flex-end;
+  }
+
+  .about-header-container #portrait {
+    align-self: flex-end;
+  }
+  #contact-me {
+    align-self: flex-end;
+  }
+
+  /* projects */
+  .projects-main-container .projects-container {
+    flex-direction: row;
+    margin-top: 7vw;
+  }
+
+  .project-container {
+    flex: 1;
+  }
+
+  .project-container .project-links-container {
+    margin-bottom: 0;
+    margin-top: auto;
+    justify-content: flex-end;
+  }
+
+  .project-links-container a.top {
+    display: none;
+  }
+}
+
+/* about */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5em 1.5em;
+}
+
+.about-container h3 {
+  margin-bottom: 0.5rem;
+}
+
+.about-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* projects */
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.project-container {
+  border-radius: 0.2rem;
+  overflow: hidden;
+  color: var(--clr-secondary);
+  background-color: var(--clr-primary-accent);
+  margin: 0 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container img {
+  width: 100%;
+}
+
+.tech-group {
+  display: flex;
+  margin-bottom: 0.2rem;
+}
+
+.tech-group img {
+  width: clamp(2rem, 1.5vw + 1.8rem, 2.5rem);
+}
+
+.project-container h3 {
+  margin: 0.2rem 0;
+}
+
+.project-links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-links-container a {
+  color: var(--clr-accent);
+  font-weight: 1000;
+}
+
+#contact-me {
+  color: var(--clr-accent);
+  border: 0.125em var(--clr-accent) solid;
+  margin-top: 0.8em;
+  padding: 0.2em 0.3em;
+  font-size: clamp(0.8rem, 0.48vw + 0.8rem, 1rem);
 }
