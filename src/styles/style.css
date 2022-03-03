@@ -24,6 +24,9 @@ body {
 }
 
 .page-container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   height: inherit;
@@ -48,12 +51,13 @@ nav a:hover,
 .account-links a:hover,
 .project-links-container a:hover,
 #contact-me:hover,
-.about-section-container a:hover, .logo:hover {
+.about-section-container a:hover,
+.logo:hover {
   display: inline-block;
   transform: scale(1.125);
 }
 
-/* navigation - text/graphical component */
+/* navigation - text component */
 .logo {
   width: clamp(2rem, 4.6vw + 1.1rem, 3rem);
 }
@@ -103,6 +107,7 @@ nav ul {
   font-size: clamp(1rem, 0.4vw + 0.9rem, 1.2rem);
   margin: 0.5em 0.5em 0.5em 0;
   color: var(--clr-secondary);
+  padding-left: 0;
 }
 
 #job-title {
@@ -173,8 +178,9 @@ footer p {
   color: var(--clr-accent);
   text-decoration: underline;
 }
-
+/* change this */
 .blog-link-container {
+  /* position: relative; */
   border-radius: 0.2rem;
   overflow: hidden;
   color: var(--clr-secondary);
@@ -230,6 +236,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.blog-link-container .small-text {
+  width: fit-content;
+}
+
 /* blog posts  - text/graphical component*/
 .blogs-container {
   display: flex;
@@ -256,7 +266,7 @@ h2 {
   text-transform: none;
 }
 
-p + .blog-subheading {
+p.small-text + .blog-subheading {
   margin-top: 0.5em;
 }
 
@@ -339,6 +349,11 @@ p + .blog-subheading {
   font-size: clamp(0.8rem, 0.48vw + 0.8rem, 1rem);
 }
 
+.about-section-container .small-text + .small-text,
+.section-container .small-text + .small-text {
+  margin-top: 0.5rem;
+}
+
 /* tablet media query*/
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   /* blogs */
@@ -377,13 +392,11 @@ p + .blog-subheading {
   /* about me */
   .about-container {
     width: 65%;
-    /* background-color: var(--clr-primary-accent); */
   }
 
   .about-main-container {
     display: flex;
     justify-content: center;
-    /* background-color: var(--clr-primary-accent); */
   }
 
   /* projects */
@@ -497,7 +510,7 @@ p + .blog-subheading {
   }
 
   #trending {
-    width: 40vw;
+    width: 30vw;
   }
 
   .blog-link-container {
@@ -578,7 +591,7 @@ p + .blog-subheading {
   .about-header-container #portrait {
     align-self: flex-end;
   }
-  
+
   #contact-me {
     align-self: flex-end;
   }
