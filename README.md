@@ -17,17 +17,25 @@ The website is semantic, accessible and fully respsonive between mobile, tablet 
 
 ## Screenshots
 
-### Homepage - mobile:
+### Index page:
 
-![Homepage - mobile](docs/homepage-mobile.png "Homepage - mobile")![Homepage - tablet](docs/homepage-tablet.png "Homepage - tablet")
+<img src="docs/homepage-full.png"/>
 
-### Homepage - tablet:
+### About page:
 
-![Homepage - tablet](docs/homepage-tablet.png "Homepage - tablet")
+<img src="docs/about-full.png"/>
 
-### Homepage - desktop:
+### Projects page:
 
-![Homepage - desktop](docs/homepage-desktop.png "Homepage - desktop")
+<img src="docs/projects-full.png"/>
+
+### Blogs page:
+
+<img src="docs/blogs-full.png"/>
+
+### Blog post page:
+
+<img src="docs/blog-post-full.png"/>
 
 ## Technology stack
 
