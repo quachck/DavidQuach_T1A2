@@ -13,7 +13,7 @@ The website is semantic, accessible and fully respsonive between mobile, tablet 
 
 ## Sitemap
 
-![Site Map](docs/sitemap.png "Site Map")
+![Site Map](./docs/sitemap.png "Site Map")
 
 ## Screenshots
 
