@@ -19,23 +19,23 @@ The website is semantic, accessible and fully respsonive between mobile, tablet 
 
 ### Index page:
 
-<img src="docs/homepage-full.png"/>
+![Index Page](docs/index-full.PNG "Index Page")
 
 ### About page:
 
-<img src="docs/about-full.png"/>
+![About Page](docs/about-full.PNG "About Page")
 
 ### Projects page:
 
-<img src="docs/projects-full.png"/>
+![Projecs Page](docs/projects-full.PNG "Projects Page")
 
 ### Blogs page:
 
-<img src="docs/blogs-full.png"/>
+![Blogs](docs/blogs-full.PNG "Blogs Page")
 
 ### Blog post page:
 
-<img src="docs/blog-post-full.png"/>
+![Blog Post](docs/blog-post-full.PNG "Blog Post Page")
 
 ## Technology stack
 
