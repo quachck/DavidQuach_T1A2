@@ -1,12 +1,15 @@
 /* global */
 :root {
   --clr-primary: #f0f0f0;
-  --clr-primary-accent: #d8d8d8;
-  --clr-secondary: #666666;
+  --clr-primary-accent: #e3e3e3;
+  --clr-secondary: #454545;
   --clr-accent: #666999;
   --ff-primary: "Rubik", sans-serif;
   --ff-title: "Bebas Neue", cursive;
-  --text-primary: black;
+}
+
+h1, h2 {
+  color: var(--clr-secondary);
 }
 
 html {
@@ -104,6 +107,7 @@ nav ul {
   font-size: clamp(4rem, 13.1vw + 1.3rem, 10rem);
   text-align: center;
   font-family: var(--ff-title);
+  color: #000;
   margin: 0;
 }
 
@@ -253,6 +257,10 @@ footer p {
 .about-section-container .small-text + .small-text,
 .section-container .small-text + .small-text {
   margin-top: 0.5rem;
+}
+
+.lower-opac {
+  opacity: 75%;
 }
 
 /* blogs - text/graphical component*/
