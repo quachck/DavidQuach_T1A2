@@ -130,13 +130,13 @@ nav ul {
 }
 
 /* index - info  - text/graphical component*/
-#portrait {
+.portrait {
   width: 35vw;
   border-radius: 50%;
   border: 0.15rem var(--clr-accent) solid;
 }
 
-article #portrait {
+.about-header-container .portrait {
   border-radius: 0;
   border: none;
 }
@@ -478,7 +478,7 @@ p.small-text + .blog-subheading {
     order: 4;
   }
 
-  #portrait {
+  .portrait {
     width: 14rem;
   }
 
@@ -536,7 +536,7 @@ p.small-text + .blog-subheading {
     align-self: flex-end;
   }
 
-  .about-header-container #portrait {
+  .about-header-container .portrait {
     align-self: flex-end;
   }
 
