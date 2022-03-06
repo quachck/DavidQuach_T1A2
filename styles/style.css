@@ -32,18 +32,19 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: inherit;
 }
 
 * {
   box-sizing: border-box;
 }
 
+/* text styling */
 a.small-text {
   color: var(--clr-accent);
   font-weight: 1000;
 }
 
+/* anchor-styling */
 .project-text-container a,
 .about-section-container h2 a {
   color: var(--clr-accent);
@@ -126,7 +127,6 @@ nav ul {
   text-transform: uppercase;
   font-size: clamp(1.9rem, 2.4vw + 1.1rem, 3rem);
   margin: 0;
-  /* font-size: 1.9rem; */
 }
 
 /* index - info  - text/graphical component*/
@@ -300,6 +300,7 @@ footer p {
   text-transform: uppercase;
   font-size: clamp(2rem, 6.87vw + 0.6rem, 3.5rem);
   margin: 0.2em 0;
+  padding: 0 0.5em;
 }
 
 .small-text {
@@ -579,7 +580,6 @@ p.small-text + .blog-subheading {
     width: 100%;
     order: 1;
     text-align: left;
-    padding: 0 0.5em;
   }
 
   #trending {
