@@ -1,0 +1,131 @@
+commit 6b9e1899e104c2ff3985c154c4c08619e7530c3d
+Author: David <quachddavid@gmail.com>
+Date:   Sun Mar 6 13:40:23 2022 +1100
+
+    fixed page-container height
+
+commit 24ec3181105e500dc5be4c9571a503211aa532d0
+Author: David <quachddavid@gmail.com>
+Date:   Sun Mar 6 12:50:07 2022 +1100
+
+    updated about-full.PNG and minor CSS update
+
+commit 6646ea954565ff150c3cf0202d1d6ad2f2f4da19
+Author: David <quachddavid@gmail.com>
+Date:   Sat Mar 5 18:46:12 2022 +1100
+
+    updated slide deck
+
+commit bf842c4c9a8661f5da8d5180acd488b15add295b
+Author: David <quachddavid@gmail.com>
+Date:   Sat Mar 5 13:44:33 2022 +1100
+
+    tentative final commit 2 - minor updates to README and slide deck
+
+commit f3af1d256381162a39cd1c1a31fab2b73bcb6c82
+Author: David <quachddavid@gmail.com>
+Date:   Fri Mar 4 16:19:25 2022 +1100
+
+    tentative final commit
+
+commit 0737946d70a14364e8aadb46fc68a6d640c4eb7b
+Author: David <quachddavid@gmail.com>
+Date:   Fri Mar 4 11:48:39 2022 +1100
+
+    More README img link fixes - capitalised extension
+
+commit d19008b66d45d4991e49e63d542a1497271df4e2
+Author: David <quachddavid@gmail.com>
+Date:   Fri Mar 4 11:37:07 2022 +1100
+
+    README img link fix - capitalised extension
+
+commit 8d83eef717f846ceafd017a221e76621d0aeb2ef
+Author: David <quachddavid@gmail.com>
+Date:   Fri Mar 4 11:33:32 2022 +1100
+
+    README img link fix
+
+commit 080caf8666398eb497d5f5f3938c48fb304d3338
+Author: David <quachddavid@gmail.com>
+Date:   Fri Mar 4 11:08:45 2022 +1100
+
+    fixed blogs layout for larger screens and README img links
+
+commit e7a9010e95ef5aeceab133db4afd01ec3fd3d55e
+Author: David <quachddavid@gmail.com>
+Date:   Thu Mar 3 18:06:15 2022 +1100
+
+    about, projects and logo links fixed on blogs page
+
+commit 3d608be949cd5942d21ad072a1a3e53f502e9e1c
+Author: David <quachddavid@gmail.com>
+Date:   Thu Mar 3 17:18:43 2022 +1100
+
+    fixed more blogs broken links
+
+commit 5194edb2b18c0a032d0c5b80a4bd6d0f42d1cf81
+Author: David <quachddavid@gmail.com>
+Date:   Thu Mar 3 16:04:06 2022 +1100
+
+    fixed broken blogs links
+
+commit 003debefad59b09a21fab0abd14c41523c8890dc
+Author: David <quachddavid@gmail.com>
+Date:   Thu Mar 3 15:49:32 2022 +1100
+
+    fixed validation errors
+
+commit 466c561c7f982fb9142b1f78910c80262bac0788
+Author: David <quachddavid@gmail.com>
+Date:   Wed Mar 2 16:14:48 2022 +1100
+
+    completed README
+
+commit 00ca75e507aa5038793a389c68c9df7d8f3d4d5e
+Author: David <quachddavid@gmail.com>
+Date:   Wed Mar 2 14:46:29 2022 +1100
+
+    cleaned html and css files and made them more sematic
+
+commit 0ec832d70ced4ad47a8cf740d40c7d9f0d4c615b
+Author: David <quachddavid@gmail.com>
+Date:   Tue Mar 1 18:13:02 2022 +1100
+
+    first draft completed
+
+commit 1ec9240cd41e408094e5ebc5ba3fb4ad204ae439
+Author: David <quachddavid@gmail.com>
+Date:   Mon Feb 28 16:09:45 2022 +1100
+
+    completed blogs page
+
+commit e1cf1b0c5bdb2ef4f5e31904084dcf0f2b30c892
+Author: David <quachddavid@gmail.com>
+Date:   Fri Feb 25 20:27:43 2022 +1100
+
+    homepage finalised
+
+commit 33a3e80b68a548c5637e179ecc6f2144f96e766e
+Author: David <quachddavid@gmail.com>
+Date:   Fri Feb 25 17:15:14 2022 +1100
+
+    homepage desktop draft
+
+commit c4afa49e79a4540d84ac70e0387372ea2c7e1b52
+Author: David <quachddavid@gmail.com>
+Date:   Fri Feb 25 11:04:49 2022 +1100
+
+    homepage mobile draft
+
+commit 65b3f29680dc3ea89de0630a6a8a4d5e4ab782f9
+Author: David <quachddavid@gmail.com>
+Date:   Thu Feb 24 20:23:32 2022 +1100
+
+    added ppt
+
+commit 1fb2c4f79af5df033b90d5102c326b4fbed78a86
+Author: David <quachddavid@gmail.com>
+Date:   Thu Feb 24 20:21:12 2022 +1100
+
+    initial commit
