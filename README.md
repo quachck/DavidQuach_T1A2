@@ -73,5 +73,3 @@ Created using Balsamiq Wireframes.
 - Colour contrast checker: WebAIM Contrast Checker
 - Website: HTML5 & CSS3
 - Deployment: Github Pages
-
-
